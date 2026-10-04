@@ -1,4 +1,38 @@
-/* css styles */
-.navbar-dark, .quarto-title-banner {
-  background-color: #006DAE;
+/* Page background and body text */
+body {
+  background-color: #faf8f5;
+  color: #303030;
+  font-size: 17px;
+  line-height: 1.7;
+}
+
+/* Headings: remove Lux's uppercase styling */
+main.content h1,
+main.content h2,
+main.content h3 {
+  text-transform: none;
+  letter-spacing: normal;
+  color: #1f4e5f;
+}
+
+/* Navigation bar */
+#quarto-header .navbar {
+  background-color: #1f4e5f;
+}
+
+/* Banner background */
+.quarto-title-banner {
+  background-color: #2c6e80;
+  color: #ffffff;
+}
+
+/* "ETC5523 Blog Assessment" title colour */
+.quarto-title-banner .title {
+  color: #ffffff;
+}
+
+/* Links within your content */
+main.content p a {
+  color: #215b91;
+  text-underline-offset: 3px;
 }
