@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Xuanning Zhang">
+<meta name="dcterms.date" content="2026-10-11">
 
-<title>ETC5523 Blog Assessment – blog-template</title>
+<title>Did climate change make Black Summer fires more likely in Australia? – blog-template</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,29 +22,47 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-26827f95213357c060b998e0666f8ebe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-26827f95213357c060b998e0666f8ebe.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,77 +90,19 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
 
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed fullcontent quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">blog-template</span>
     </a>
   </div>
@@ -151,7 +113,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item compact">
@@ -169,97 +131,128 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">ETC5523 Blog Assessment</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Did climate change make Black Summer fires more likely in Australia?</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page-left">
+  <div class="quarto-title-meta">
 
+      <div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-contents">
+               <p>Xuanning Zhang </p>
+            </div>
+    </div>
       
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">October 11, 2026</p>
+      </div>
+    </div>
     
       
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div></div></div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-listing-date-sort="1791637200000" data-listing-file-modified-sort="1791644653682" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1184">
-<div class="thumbnail"><a href="./posts/black_summer.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/black_summer_files/figure-html/fig-fire-risk-1.png"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/black_summer.html" class="no-external">Did climate change make Black Summer fires more likely in Australia?</a>
-</h3>
-<div class="delink listing-description"><a href="./posts/black_summer.html" class="no-external">
-The sky turned orange over southeastern Australia in the summer of 2019-20. The “Black Summer” bush fires burned more than 19 million hectares of land, killed 34 people and…<span class="citation" data-cites="vanoldenborgh2021"></span>
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/black_summer.html" class="no-external">
-<div class="listing-date">
-Oct 11, 2026
-</div>
-<div class="listing-author">
-Xuanning Zhang
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-right" data-index="1" data-categories="bmV3cw==" data-listing-date-sort="1658066400000" data-listing-file-modified-sort="1791116232962" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="10">
-<div class="thumbnail"><a href="./posts/welcome/index.html" class="no-external">
-
-<p class="card-img-top"><img src="posts/welcome/thumbnail.jpg"  class="thumbnail-image card-img"/></p>
-
-</a></div>
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="./posts/welcome/index.html" class="no-external">Welcome To My Blog Template</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('bmV3cw=='); return false;">news</div>
-
-</div>
-<div class="delink listing-description"><a href="./posts/welcome/index.html" class="no-external">
-This is the first post in a Quarto blog. Welcome!
-</a></div>
-</div>
-<div class="metadata">
-<a href="./posts/welcome/index.html" class="no-external">
-<div class="listing-date">
-Jul 18, 2022
-</div>
-<div class="listing-author">
-Emi Tanaka
-</div>
-</a>
+<p>The sky turned orange over southeastern Australia in the summer of 2019-20. The “Black Summer” bush fires burned more than 19 million hectares of land, killed 34 people and destroyed around 5900 homes and other buildings. Smoke has blanketed cities like Sydney and Canberra, nearly 80% Aussies said their living has been affected. Perhaps you are one of them. So, is it only a disaster season or caused by human activity? A major international research has confirmed that comparing to 1900s, the climate change has increased the occurrence of dangerous fire weather at least 30%, and probably much more <span class="citation" data-cites="vanoldenborgh2021">(<a href="#ref-vanoldenborgh2021" role="doc-biblioref">Oldenborgh et al. 2021</a>)</span>.</p>
+<section id="what-happened-and-what-scientists-asked" class="level2">
+<h2 class="anchored" data-anchor-id="what-happened-and-what-scientists-asked">What happened? And what scientists asked?</h2>
+<p>In that summer, many people who watching this news asked this question, but its harder to answer than it sounds. A bushfire needs ingredients of hot weather, strong winds, dry vegetation and source of ignition like lightning or human. Climate change will not light fires,and there has not fire season can be blamed on single one factor. Thus scientists asked another question: how much more the climate change increased the probability of hot, dry and windy weather which make the fire spread so far? You can even image that every road could happening car accident, but wet road will strongly increase the probability.</p>
+<p>A team of international scientists has compared the likelihood of weather in “Black Summer” to that in last century. They used two evidences: the Australian weather records in recent ten years and computer model of the climate, which can reproduce the weather condition form the beginning of 20th century. These evidences has let scientists counting out the frequency of extreme weather in different periods. The team has divide the research in three aspects: Drought, Extreme heat and overall fire weather.</p>
+</section>
+<section id="explain-the-evidences" class="level2">
+<h2 class="anchored" data-anchor-id="explain-the-evidences">Explain the Evidences</h2>
+<p>These climate records were from ERA5, it is used to combining the previous climate observation with climate model since 1979. Scientists used “Fire weather index”(FWI) to measure the level of danger weather, it could be view as a dangerous score which combine the temperature, humidity, wind and rainfall into one value, higher FWI means bushfire is easier to start and spread.</p>
+<p>These three factors reflect different situations (<a href="#tbl-finding" class="quarto-xref">Table&nbsp;1</a>). Extreme heat shows a significant relationship, that human-caused climate change has increased at least 200% than extreme heat in December of 2019. The climate record shows if the extreme heat happen around 1900, the temperature of same heat wave will have 1 to 2 °C lower. Drought is different because the team did not found a clear relationship between extreme heat, bu t it does not mean there has no affect on drought by climate change, but did not detected by this research. The drought in 2019 was mainly drove by two climate modes: the Indian Ocean Dipole and the Southern Annular Mode, they separately explained the one of third of drought from July to December. While all factors are considered in FWI, the result is obvious: extreme weather like “Black Summer” have a 30% higher than around 1900 which mainly due to rise in extreme heat.</p>
+<div class="cell">
+<div id="tbl-finding" class="cell quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-finding-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: How climate change affected by three factors in Black Summer’s weather comparing to 1900
+</figcaption>
+<div aria-describedby="tbl-finding-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell-output-display">
+<table class="do-not-create-environment cell caption-top table table-sm table-striped small">
+<colgroup>
+<col style="width: 15%">
+<col style="width: 23%">
+<col style="width: 61%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Factor</th>
+<th style="text-align: left;">Study.Found</th>
+<th style="text-align: left;">Exlplain</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Extreme heat</td>
+<td style="text-align: left;">At least 2 times as likely</td>
+<td style="text-align: left;">Extreme heat in 2019-20 will be 1–2°C lower if happend in around 1900</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Drought</td>
+<td style="text-align: left;">No clear link to climate change found</td>
+<td style="text-align: left;">Can not reject, model did not detect out their relationship because natural climate mode in 2019</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Fire weather index (FWI)</td>
+<td style="text-align: left;">At least 1.3 times as likely</td>
+<td style="text-align: left;">Combine the extreme heat, drought and wind, dangerous weather like Black Summer is more likely now</td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
+</figure>
 </div>
-<div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+<p>According to climate records, the probability of fire weather like “Black Summer” is now at least four times higher than last century.(<a href="#fig-fire-risk" class="quarto-xref">Figure&nbsp;1</a>) The model also shown that if global temperature increase 2°C above pre-industrial level, the disaster climate will be at least four times than the beginning of 20th century, this kind of risk will keep increasing with global warming.</p>
+<div class="cell">
+<div class="cell-output-display">
+<div id="fig-fire-risk" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-fig figure">
+<div aria-describedby="fig-fire-risk-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="black_summer_files/figure-html/fig-fire-risk-1.png" class="img-fluid figure-img" width="672">
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-fire-risk-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1: The extreme fire weather as Black Summer is now more likely than around 1900. Plot shows the minimum increase reported by research.
+</figcaption>
+</figure>
+</div>
+</div>
+</div>
+<p>These data has an important limitation, the climate model tend to underestimate the increasing rate of extreme heat, thus the actual increased risk will larger than expectation. Furthermore, the climate data only cover the time after 1979, but there was a extreme drought in this period and may make the “four times” too high. As these models are also used for prediction, lower bonds should be paid more attention rather than those attractive.</p>
+</section>
+<section id="not-just-a-bad-summer" class="level2">
+<h2 class="anchored" data-anchor-id="not-just-a-bad-summer">Not just a bad summer</h2>
+<p>Back to our question: Did climate change lead to Black Summer? Climate change not light fire. The evidence shows human-caused climate change increased the probability of dangerous fire weather mainly because it make extreme heat more frequent. The likelihood of extreme heat week in December 2019 has increase at least twice larger than that in 1900s and fire weather like 2019-20 has increased at least 30%, and this risk is still increasing.</p>
+<p>What does this mean for you? If you living in Australia, the heat, drought and windy weather which caused Black Summer is not as rare as a century ago, but more common due to global warming. Here are few steps of self-prevention: Check the danger rating on hot days, cleaning dry leaves and plants near your house on time and set a bushfire plan. <em>No one can stop every fire, but better understanding of risk can help us ready for next Black Summer</em>.</p>
+
+
+
+</section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-vanoldenborgh2021" class="csl-entry" role="listitem">
+Oldenborgh, Geert Jan van, Folmer Krikken, Sophie Lewis, Nicholas J. Leach, Flavio Lehner, Kate R. Saunders, Michiel van Weele, et al. 2021. <span>“Attribution of the <span>Australian</span> Bushfire Risk to Anthropogenic Climate Change.”</span> <em>Natural Hazards and Earth System Sciences</em> 21: 941–60. <a href="https://doi.org/10.5194/nhess-21-941-2021">https://doi.org/10.5194/nhess-21-941-2021</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
