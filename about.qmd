@@ -1,13 +1,26 @@
 ---
-title: "About"
+title: "Xuanning (Alex) Zhang"
 image: profile.jpg
 about:
-  template: jolla
+  template: trestles
   links:
     - icon: github
-      text: Github
-      href: https://github.com/etc5523-2022
-
+      text: GitHub
+      href:  https://github.com/xzha0419
+    - icon: envelope
+      text: Email
+      href: mailto:xzha0419@student.monash.edu
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/xuanning-zhang-173b5831a/
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hello, I’m Alex, a **Master of Business Analytics** student at Monash University with a background in **Banking and Finance**. I’m interested in how data can help us understand financial markets and make better decisions.
+
+During my undergraduate studies, I learned how financial markets work and what can cause them to become unstable. My projects included building a simulated investment portfolio for an investor concerned about risk and responsible investing, studying the Société Générale trading scandal, and exploring how Japan’s low interest rates influenced currency trading. I also studied project management, organisational behaviour and business ethics.
+
+In my master’s degree, I’ve been learning how to turn data into clear and useful findings. I used government statistics to explore changes in Australia’s seafood industry and worked with a team to compare renewable energy use and carbon emissions across four countries. I’ve also examined how mistakes when combining datasets can affect the results of an analysis. I use **R and the tidyverse** to analyse data, **Quarto** to present my work, and **Git** to track changes and collaborate.
+
+I aim to make my work clear, honest and easy to check. This means explaining my methods, documenting my steps, sharing code where appropriate and taking care with data privacy. Through this blog, I’m practising how to explain data and research to people without a technical background.
+
+I’m particularly interested in bringing together finance and data analysis. I’m always happy to connect with others interested in financial markets, data analysis or visualisation.
