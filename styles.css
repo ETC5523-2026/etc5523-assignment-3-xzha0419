@@ -12,17 +12,17 @@ main.content h2,
 main.content h3 {
   text-transform: none;
   letter-spacing: normal;
-  color: #1f4e5f;
+  color: #264653;
 }
 
 /* Navigation bar */
 #quarto-header .navbar {
-  background-color: #1f4e5f;
+  background-color: #264653;
 }
 
 /* Banner background */
 .quarto-title-banner {
-  background-color: #2c6e80;
+  background-color: #2A9D8F;
   color: #ffffff;
 }
 
@@ -33,6 +33,6 @@ main.content h3 {
 
 /* Links within your content */
 main.content p a {
-  color: #215b91;
+  color: #264653;
   text-underline-offset: 3px;
 }
