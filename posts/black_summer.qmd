@@ -81,7 +81,7 @@ ggplot(fire_risk, aes(x = estimate, y = at_least, fill = period)) +
   theme(legend.position = "none") +
   labs(
     title = "How much more likely is Black Summer weather? ",
-    subtitle = "Minimum increase compared to around 1900",
+    subtitle = "Times as likely as in the early 1900s",
     x = NULL,
     y = "Times of increase"
   )

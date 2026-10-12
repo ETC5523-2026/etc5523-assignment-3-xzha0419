@@ -2,7 +2,7 @@
 # ETC5523 Blog Assessment
 
 * The author of this blog is **Xuanning Zhang**.
-* The URL for this blog is [](https://ETC5523-2026.github.io/etc5523-assignment-3-xzha0419/)
+* The URL for this blog is [Blog](https://ETC5523-2026.github.io/etc5523-assignment-3-xzha0419/)
 
 ## Intended audience
 
